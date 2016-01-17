@@ -4,8 +4,12 @@
   */
 
 //define your token
+<<<<<<< HEAD
 traceHttp();
 define("TOKEN", "weixin");
+=======
+define("TOKEN", "HXMei");
+>>>>>>> 3b14bd764250bddf383b24b16b05f80e252a23c3
 $wechatObj = new wechatCallbackapiTest();
 $wechatObj->valid();
 
@@ -78,6 +82,7 @@ class wechatCallbackapiTest
 		}
 	}
 }
+<<<<<<< HEAD
 function traceHttp()
 {
     logger("\n\nREMOTE_ADDR:".$_SERVER["REMOTE_ADDR"].(strstr($_SERVER["REMOTE_ADDR"],'101.226')? " FROM WeiXin": "Unknown IP"));
@@ -97,3 +102,7 @@ function logger($log_content)
     }
 }
 ?>
+=======
+
+?>
+>>>>>>> 3b14bd764250bddf383b24b16b05f80e252a23c3
